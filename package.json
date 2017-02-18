@@ -1,6 +1,6 @@
 {
   "name": "reduxform-grommet-bindings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Components mapping Grommet to Redux Form",
   "main": "lib/index.js",
   "scripts": {
@@ -22,6 +22,9 @@
     "url": "https://github.com/jayasurya-sridharan/reduxform-grommet-bindings/issues"
   },
   "homepage": "https://github.com/jayasurya-sridharan/reduxform-grommet-bindings#readme",
+  "dependencies" : {
+    "react-maskedinput": "^3.3.4"
+  },
   "devDependencies" :{
     "babel-core": "^6.22.1",
     "babel-loader": "^6.2.10",
