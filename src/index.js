@@ -1,2 +1,2 @@
-module.exports.MaskedInput = require("./ReduxFormMaskedInput.js");
-module.exports.TextInput = require("./ReduxFormTextInput.js");
+module.exports.MaskedInput = require("./ReduxFormMaskedInput.js").default;
+module.exports.TextInput = require("./ReduxFormTextInput.js").default;
